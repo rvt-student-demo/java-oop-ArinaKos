@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kursi>
+    <kurss id="DP1-3">
+        <nosaukums>Web programmēšanā</nosaukums>
+        <apraksts>Apgūsti HTML, CSS un JavaScript pamatus no nulles.</apraksts>
+        <pasniedzejs>Hatuna Halvaša</pasniedzejs>
+        <ilgums_stundas>40</ilgums_stundas>
+        <studentu_skaits>25</studentu_skaits>
+        <limenis>vidējs</limenis>
+    </kurss>
+
+    <kurss id="DP2-3">
+        <nosaukums>Programmas koda rakstīšana</nosaukums>
+        <apraksts>Java kodu apguve un rakstīšana</apraksts>
+        <pasniedzejs>Vadims Malickis</pasniedzejs>
+        <ilgums_stundas>62</ilgums_stundas>
+        <studentu_skaits>28</studentu_skaits>
+        <limenis>vidējs</limenis>
+    </kurss>
+
+    <kurss id="DP3-3">
+        <nosaukums>Datu bāzu programmēšana</nosaukums>
+        <apraksts>Iepazīšanās ar nestrukturētām datubāzēm, strādājot ar MongoDB, Redis n lielu datu apjomime</apraksts>
+        <pasniedzejs>Elena Matvejeva</pasniedzejs>
+        <ilgums_stundas>80</ilgums_stundas>
+        <studentu_skaits>31</studentu_skaits>
+        <limenis>profesionāls</limenis>
+    </kurss>
+</kursi>
