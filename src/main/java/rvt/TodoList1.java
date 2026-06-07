@@ -20,7 +20,7 @@ public class TodoList1 {
         } else if ("stop".equals(choice)) {
             break;
         } else {
-            System.out.println("Wrong command, type 'help' for commands");
+            System.out.println("Wrrong command, type 'help' for commands");
         }
     }
 }

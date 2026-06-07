@@ -26,8 +26,6 @@ public class TodoList2 {
             System.out.println("Task must be at least 3 characters long and contain only letters, numbers and spaces");
         }
     }
-
-    // --- ОШИБКА БЫЛА ТУТ: Метод print() теперь закрывается корректно ---
     public void print() {
         for (int i = 0; i < tasks.size(); i++) {
             System.out.println((i + 1) + ": " + tasks.get(i));
@@ -56,7 +54,7 @@ public class TodoList2 {
     public void loadFromFile() {
         try (Scanner reader = new Scanner(new File("data/todo.csv"))) {
             if (reader.hasNextLine()) {
-                reader.nextLine(); // Исправлено: с маленькой буквы 'n'
+                reader.nextLine();
             }
             while (reader.hasNextLine()) {
                 String line = reader.nextLine();
